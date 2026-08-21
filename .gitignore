@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local data / biometric material
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.webp
+known_faces/
+registered_faces/
+unknown_faces/
+face_database/
+*.pkl
+*.pickle
+*.dat
+
+# Secrets / local configuration
+.env
+*.key
+*.pem
+
+# Logs
+*.log
